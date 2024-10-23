@@ -3,32 +3,18 @@ channels:
   - conda-forge
   - bioconda
   - defaults
+  - r
 dependencies:
-  - python=3.9
   - ipykernel
-  - r-base=4.2.*
-  - r-ggplot2
-  - r-reshape2
-  - r-rcpp
-  - r-stringr
-  - r-tibble
-  - r-optparse
-  - r-readr
-  - r-data.table
-  - r-magrittr
-  - r-knitr
-  - r-rmarkdown
-  - r-foreach
-  - r-biocmanager
-  - bioconductor-genomicalignments
-  - bioconductor-biostrings
-  - bioconductor-shortread
-  - bioconductor-iranges
-  - bioconductor-s4vectors
+  - cutadapt
+  - r-tidyverse
+  - r-vegan
+  - r-dendextend
+  - r-viridis
+  - bioconductor-deseq2
+  - bioconductor-decontam
   - bioconductor-dada2
   - bioconductor-phyloseq
   - pip:
-    - numpy
-    - matplotlib
     - jupyter
     - rpy2
